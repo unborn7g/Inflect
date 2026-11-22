@@ -111,9 +111,11 @@ The user's direct native camera run reached running and returned 101 stable land
 
 The builder then supplied a live desktop screenshot, a completed 20-second timing review and an exported session marked live. The two cues had partial usable tracking, which is documented in the [live-run notes](docs/live-run-2026-11-22.md). Longer hardware testing, learner evaluation and educator review remain pending. See [manual test guide](docs/manual-test-guide.md), [architecture](docs/architecture.md) and [validation status](docs/validation.md).
 
-## Submission materials
+## Demo and submission
 
-[DEV post draft](docs/dev-submission.md) and [demo recording guide](docs/demo-recording.md). The public repository and video links must be filled in before publication.
+[Watch or download the narrated MP4](https://github.com/unborn7g/Inflect/raw/refs/heads/main/demo/inflect-demo.mp4). It combines the verified live-run screenshots and exported review with a labelled recording of the illustrated walkthrough. It does not contain continuous live-camera footage. See [video provenance](docs/demo-provenance.md).
+
+The [DEV post draft](docs/dev-submission.md) includes the public code and video links. Use [Open the filled DEV submission](docs/publish.md) to review and publish it from the builder’s account.
 
 ## Sources
 
