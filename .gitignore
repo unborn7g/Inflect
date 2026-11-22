@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+*.log
+.env
+.env.*
+.DS_Store
+test-results/
+coverage/
+*.pem
+*.key
+.sites-checkout/

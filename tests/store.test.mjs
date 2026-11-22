@@ -1,0 +1,9 @@
+import test from'node:test';import assert from'node:assert/strict';import{readHistory,saveAttempt,clearHistory}from'../web/lib/store.js';
+const storage=()=>{let text=null;return{getItem:()=>text,setItem:(_,v)=>text=v,removeItem:()=>text=null};};
+const attempt={id:'test',date:'2026-11-22T01:00:00Z',lessonId:'raised',mode:'live',report:[{target:'raised',start:3,end:7,duration:4,observed:3,matched:2,delay:.5}],apiKey:'SENSITIVE',faceCoordinates:[1,2],calibration:[3,4],video:'SENSITIVE'};
+test('history excludes key, face, calibration and video',()=>{const a=storage();assert.equal(saveAttempt(attempt,a),true);assert.equal(a.getItem().includes('SENSITIVE'),false);assert.equal(a.getItem().includes('faceCoordinates'),false);assert.equal(a.getItem().includes('calibration'),false);assert.equal(readHistory(a).length,1);});
+test('illustrated data cannot enter history',()=>{const a=storage();assert.equal(saveAttempt({...attempt,mode:'preview'},a),false);assert.equal(readHistory(a).length,0);});
+test('corrupt or unexpected storage is ignored',()=>{assert.deepEqual(readHistory({getItem:()=>'{oops'}),[]);assert.deepEqual(readHistory({getItem:()=>'{}'}),[]);assert.deepEqual(readHistory({getItem:()=>'[{"mode":"preview"}]'}),[]);});
+test('storage failures remain recoverable',()=>{const a={getItem(){throw Error();},setItem(){throw Error();},removeItem(){throw Error();}};assert.deepEqual(readHistory(a),[]);assert.equal(saveAttempt(attempt,a),false);assert.equal(clearHistory(a),false);});
+test('clear removes summaries',()=>{const a=storage();saveAttempt(attempt,a);assert.equal(clearHistory(a),true);assert.deepEqual(readHistory(a),[]);});
+test('history is bounded to sixty summaries',()=>{const a=storage();for(let i=0;i<65;i++)saveAttempt({...attempt,id:String(i)},a);assert.equal(readHistory(a).length,60);});

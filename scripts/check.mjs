@@ -1,0 +1,3 @@
+import{readdir,readFile}from'node:fs/promises';import{execFileSync}from'node:child_process';
+async function walk(dir){const out=[];for(const e of await readdir(dir,{withFileTypes:true})){if(['node_modules','dist','.git','.openai','.sites-checkout'].includes(e.name))continue;const p=dir+'/'+e.name;if(e.isDirectory())out.push(...await walk(p));else if(/\.(m?js|cjs)$/.test(p))out.push(p);}return out;}
+const files=await walk('.');for(const p of files)execFileSync(process.execPath,['--check',p],{stdio:'pipe'});if(!(await readFile('web/index.html','utf8')).includes('Content-Security-Policy'))throw Error('Missing CSP');console.log(`Checked ${files.length} JavaScript modules and CSP.`);

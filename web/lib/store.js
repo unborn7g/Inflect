@@ -1,0 +1,4 @@
+const KEY='inflect.practice.v1';
+export function readHistory(storage=localStorage){try{const a=JSON.parse(storage.getItem(KEY)||'[]');return Array.isArray(a)?a.filter(x=>x&&['live','mirror'].includes(x.mode)&&['raised','furrowed','contrast'].includes(x.lessonId)&&typeof x.id==='string'&&Number.isFinite(Date.parse(x.date))).slice(0,60):[];}catch{return[];}}
+export function saveAttempt(a,storage=localStorage){if(!['live','mirror'].includes(a.mode))return false;const safe={id:a.id,date:a.date,lessonId:a.lessonId,mode:a.mode,duration:20,report:Array.isArray(a.report)?a.report.map(r=>({target:r.target,start:r.start,end:r.end,duration:r.duration,observed:r.observed,matched:r.matched,delay:r.delay})):[]};try{storage.setItem(KEY,JSON.stringify([safe,...readHistory(storage)].slice(0,60)));return true;}catch{return false;}}
+export function clearHistory(storage=localStorage){try{storage.removeItem(KEY);return true;}catch{return false;}}

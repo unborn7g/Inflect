@@ -1,0 +1,1 @@
+import{SmartSpectraSDK,MetricType}from'@smartspectra/node-sdk';import{decodeMetrics}from'@smartspectra/node-sdk/messages';if(MetricType.FACE_LANDMARKS!==11||typeof decodeMetrics!=='function')throw Error('SDK exports unavailable');console.log(JSON.stringify({nativeLoad:'passed',sdk:SmartSpectraSDK.version,metricCode:11,authenticatedCameraMeasurement:'not_run'}));
