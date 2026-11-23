@@ -1,6 +1,8 @@
 # Inflect
 
-A focused studio for the brow movements used in ASL questions.
+A focused practice room for adults beginning ASL alongside qualified instruction. Observe brow movement between lessons with original guides, a camera mirror and desktop Presage feedback.
+
+[Open the browser studio](https://inflect-practice.vercel.app/) · [Watch the demo](https://inflect-practice.vercel.app/demo/)
 
 Inflect pairs original movement illustrations with a camera mirror and short prompts. In the desktop app, Presage SmartSpectra supplies facial landmarks; personal calibration turns them into reviewable brow-movement observations.
 
@@ -19,7 +21,7 @@ Requirements: Node.js 20+ (24 LTS recommended), a camera, internet access for SD
 1. Extract the source package. Open a terminal inside the `inflect` folder.
 2. Run `npm ci`.
 3. Run `npm start`.
-4. Choose **Start practice → Live movement feedback**.
+4. Choose **Practice → Use my camera → Live movement feedback**.
 5. Enter your private key, confirm adult camera consent, and choose **Connect & calibrate**.
 6. Capture relaxed, raised and furrowed brow positions. Then choose **Begin drill**.
 
@@ -29,7 +31,7 @@ The source package is not a signed desktop installer. Node.js setup is required.
 
 ## Direct native camera diagnostic
 
-If live feedback stops from sustained low frame rate, close Inflect and run npm run camera:check in this folder. Paste the key once into the masked local prompt; stars and a character count confirm input, and Ctrl+U clears the entry. This 20-second check runs the SDK camera directly, without Electron video-frame copying. See [native camera check](docs/native-camera-check.md). The user’s direct native diagnostic received 101 stable landmark packets. The updated desktop app also completed a live 20-second drill and exported its review; see [live-run notes](docs/live-run-2026-11-22.md).
+If live feedback stops from sustained low frame rate, close Inflect and run npm run camera:check in this folder. Paste the key once into the masked local prompt; stars and a character count confirm input, and Ctrl+U clears the entry. This 20-second check runs the SDK camera directly, without Electron video-frame copying. See [native camera check](docs/native-camera-check.md). The direct SDK diagnostic run received 101 stable landmark packets. A separate desktop practice run displayed 1,128 landmark samples, completed a live 20-second drill and exported its review; see [live-run notes](docs/live-run-2026-11-22.md).
 
 ## Native desktop capture (0.1.3)
 
@@ -113,9 +115,11 @@ The builder then supplied a live desktop screenshot, a completed 20-second timin
 
 ## Demo and submission
 
-[Watch or download the narrated MP4](https://github.com/unborn7g/Inflect/raw/refs/heads/main/demo/inflect-demo.mp4). It combines the verified live-run screenshots and exported review with a labelled recording of the illustrated walkthrough. It does not contain continuous live-camera footage. See [video provenance](docs/demo-provenance.md).
+[Watch the live run and narrated walkthrough](https://inflect-practice.vercel.app/demo/). The page opens with a 68-second continuous desktop recording: real Presage landmarks, calibration, a complete 20-second drill and its review. The recorded review reports 3.9 s and 4.0 s of usable tracking across the two four-second cues. See [the recorded run](docs/live-run-2026-11-23.md).
 
-The [DEV post draft](docs/dev-submission.md) includes the public code and video links. Use [Open the filled DEV submission](docs/publish.md) to review and publish it from the builder’s account.
+The earlier 2:27 narrated presentation remains below it, with clearly labelled examples and previous live-run screenshots. See [video provenance](docs/demo-provenance.md).
+
+The [DEV post draft](docs/dev-submission.md) includes the public code and demo links. Use [Open the filled DEV submission](docs/publish.md) to review and publish it from the builder’s account.
 
 ## Sources
 

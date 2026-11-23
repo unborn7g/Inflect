@@ -24,3 +24,5 @@
 .calibration-live-view{position:relative;width:210px;height:175px;flex:0 1 210px;border:1px solid #53647c;border-radius:6px;overflow:hidden;background:#202f44}
 .calibration-live-view canvas{width:100%;height:100%;object-fit:contain;transform:scaleX(-1)}
 .calibration-live-view span{position:absolute;bottom:6px;left:6px;right:6px;font-size:10px;line-height:1.4;text-align:center;color:#c5d6ee;background:#202f44d9;border-radius:3px;padding:3px}
+
+.heading-scope{margin:12px 0 0;color:var(--muted,#627393);font-size:13px;line-height:1.6;max-width:64ch}

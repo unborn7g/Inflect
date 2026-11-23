@@ -1,28 +1,32 @@
 ---
 title: "Inflect: Let your face ask the question"
-published: false
 tags: devchallenge, presagechallenge
+cover_image: https://inflect-practice.vercel.app/assets/inflect-cover.jpg
 ---
 
 *Submission for the [Presage SmartSpectra SDK Challenge](https://dev.to/challenges/presage-2026-11-04).*
 
 ## What I Built
 
-**Inflect is a desktop studio for practising the brow movements used in ASL questions.**
+**Inflect is for adults beginning ASL who want a focused way to observe brow movement between lessons.**
 
-Watch an original movement guide, calibrate relaxed, raised and furrowed positions, follow a 20-second drill, then review movement timing. Written cues and optional spoken guidance keep the task focused.
+A learner practising alone can follow a movement guide, but noticing when their own brows lift, settle or move inward is a separate task. Inflect puts the guide, practice cues and a review in one place.
 
-Three modes distinguish live Presage feedback, camera-mirror self-review and a labelled illustrated walkthrough. Inflect supports adults learning alongside qualified instruction. Educator review is pending; the app assesses prompted brow movement, not ASL proficiency.
+Watch an original illustration, calibrate relaxed, raised and furrowed positions to your own face, follow a 20-second drill, then review where movement matched the cue and where tracking was usable. Written cues and optional spoken guidance support the same short practice.
+
+Live Presage feedback runs in the desktop app. The browser studio offers a camera mirror for self-review and a clearly labelled illustrated walkthrough. Inflect complements qualified instruction. Educator review is pending; the app assesses prompted brow movement, not ASL proficiency.
 
 Solo build by **unborn**, with Codex assistance.
 
 ## Demo
 
-[Watch or download the narrated MP4](https://github.com/unborn7g/Inflect/raw/refs/heads/main/demo/inflect-demo.mp4)
+[Watch the live run and narrated product demo](https://inflect-practice.vercel.app/demo/) · [Try the browser studio](https://inflect-practice.vercel.app/)
 
-The video combines **verified live-run screenshots and the exported review** with a clearly labelled recording of the illustrated walkthrough. It contains no continuous live-camera recording.
+The demo page opens with a **68-second continuous recording** of actual desktop Presage landmarks, personal calibration, a full 20-second raised-brow drill and its review. The two four-second cues reported **2.3 s and 3.0 s of matching movement**, with **3.9 s and 4.0 s of usable tracking**. These are rounded app observations, not validated accuracy scores. The silent clip retains the written cues and runs at its original speed. [Recorded run and limits](https://inflect-practice.vercel.app/demo/inflect-live-run.mp4).
 
-The actual Windows live run displayed 1,128 landmark samples and completed a 20-second session with observations for both cues. [Evidence and limits](https://github.com/unborn7g/Inflect/blob/main/docs/live-run-2026-11-22.md).
+The earlier 2:27 product walkthrough follows, with neural narration, moving app footage, word-synced captions and labelled demonstration data.
+
+Two separate checks support the integration: a direct SDK diagnostic received **101 stable landmark packets**; a subsequent desktop practice run displayed **1,128 landmark samples** and completed the 20-second drill. The two four-second cues had **2.6514 s** and **1.4637 s** of usable tracking (66% and 37% of their cue windows). These describe coverage, not gesture accuracy. [Evidence and limits](https://github.com/unborn7g/Inflect/blob/main/docs/live-run-2026-11-22.md).
 
 ## Code
 
@@ -51,7 +55,11 @@ Stale, unstable, reset or ambiguous measurements remain unscored. Tracking loss 
 
 **Best Thoughtful Real-World Use**
 
-A small, concrete practice task with readable guidance, explicit consent, local summaries and honest handling of missing tracking.
+A focused task for adult ASL beginners, with readable guidance, explicit consent, local summaries and visible gaps when tracking is unavailable.
+
+**Most Creative or Delightful Use**
+
+An ordinary laptop camera becomes a practice partner for a small part of a visual language, pairing original illustrated cues with personally calibrated brow feedback.
 
 ## Consent and Data Handling
 
