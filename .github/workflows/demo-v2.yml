@@ -1,0 +1,25 @@
+name: Produce Inflect demo v2
+on:
+  push:
+    branches: [demo-v2-production]
+    paths: ['demo-production-v2/**', '.github/workflows/demo-v2.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install edge-tts==7.3.1
+      - name: Generate natural narration with word timings
+        run: python demo-production-v2/voice.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inflect-v2-narration
+          path: demo-production-v2/output
+          retention-days: 7

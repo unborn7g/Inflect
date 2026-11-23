@@ -1,0 +1,70 @@
+[
+  {
+    "id": "hook",
+    "text": "In American Sign Language, even a small brow movement can help shape a question. Inflect gives you a focused space to watch, try, and review."
+  },
+  {
+    "id": "cues",
+    "text": "Start with one cue. Raised brows, furrowed brows, or changing between the two. Watch the guide first, and notice where the movement returns to rest."
+  },
+  {
+    "id": "modes",
+    "text": "Then choose how you want to practise. A camera mirror for self review, a clearly labelled walkthrough, or live movement feedback in the desktop app."
+  },
+  {
+    "id": "consent",
+    "text": "Live feedback starts with your consent. Enter your private key locally. Inflect keeps it in memory for this session."
+  },
+  {
+    "id": "native",
+    "text": "On the tested Windows build, Presage supplied these actual face landmarks, with the brows highlighted in the live view."
+  },
+  {
+    "id": "calibration",
+    "text": "Personal calibration compares a relaxed brow, a comfortable lift, and a gentle furrow. Those positions give Inflect a reference for your movements."
+  },
+  {
+    "id": "drill_intro",
+    "text": "This labelled walkthrough shows the same twenty second cue schedule. Keep the movement comfortable, and follow the guide."
+  },
+  {
+    "id": "cue0",
+    "text": "Get ready."
+  },
+  {
+    "id": "cue3",
+    "text": "Gently raise your brows."
+  },
+  {
+    "id": "cue7",
+    "text": "Let your brows rest."
+  },
+  {
+    "id": "cue10",
+    "text": "Lift again, comfortably."
+  },
+  {
+    "id": "cue14",
+    "text": "And return to rest."
+  },
+  {
+    "id": "review",
+    "text": "After practice, look at the timing. This real live session review shows matching movement in both cues, and how much tracking was usable."
+  },
+  {
+    "id": "limits",
+    "text": "These observations describe brow movement. They do not grade your signing, or fill in missing measurements."
+  },
+  {
+    "id": "history",
+    "text": "Your summary stays on this device. Open My sessions to export a result, or clear your history when you choose."
+  },
+  {
+    "id": "privacy",
+    "text": "No camera video is saved. Landmarks and calibration stay in memory, and S D K telemetry is off."
+  },
+  {
+    "id": "close",
+    "text": "Inflect. Let your face ask the question. Built by unborn."
+  }
+]
