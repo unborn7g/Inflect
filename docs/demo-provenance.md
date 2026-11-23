@@ -16,7 +16,7 @@ The current narrated MP4 is a 2:27 presentation of Inflect and the supplied live
 - Captions: provider word boundaries with a current-word highlight.
 - Music: an original generated instrumental bed.
 
-The video does not contain a new continuous live-camera recording. It distinguishes illustrated examples from live evidence. It does not establish ASL accuracy, learning outcomes or sustained capture performance.
+The earlier narrated walkthrough uses screenshots and an exported review for its live evidence; the separate 68-second recording above supplies the continuous live desktop sequence. Both distinguish illustrated examples from live measurements. Neither establishes ASL accuracy, learning outcomes or sustained capture performance.
 
 The direct native diagnostic (101 stable packets) and the later desktop practice session (1,128 samples) are separate runs. The latter completed the 20-second drill with partial usable tracking.
 

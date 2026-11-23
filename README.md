@@ -2,7 +2,7 @@
 
 A focused practice room for adults beginning ASL alongside qualified instruction. Observe brow movement between lessons with original guides, a camera mirror and desktop Presage feedback.
 
-[Open the browser studio](https://inflect-practice.vercel.app/) · [Watch the demo](https://inflect-practice.vercel.app/demo/)
+[Open the browser studio](https://inflect-practice.vercel.app/) · [Watch the demo](https://inflect-practice.vercel.app/demo/) · [Published DEV submission](https://dev.to/unborn7g/title-inflect-let-your-face-ask-the-question-38pm)
 
 Inflect pairs original movement illustrations with a camera mirror and short prompts. In the desktop app, Presage SmartSpectra supplies facial landmarks; personal calibration turns them into reviewable brow-movement observations.
 
@@ -119,7 +119,7 @@ The builder then supplied a live desktop screenshot, a completed 20-second timin
 
 The earlier 2:27 narrated presentation remains below it, with clearly labelled examples and previous live-run screenshots. See [video provenance](docs/demo-provenance.md).
 
-The [DEV post draft](docs/dev-submission.md) includes the public code and demo links. Use [Prepare the DEV submission](docs/publish.md) to review and publish it from the builder’s account.
+The [DEV post draft](docs/dev-submission.md) includes the public code and demo links. The [published DEV submission](https://dev.to/unborn7g/title-inflect-let-your-face-ask-the-question-38pm) is the challenge entry. See [submission links and editing reference](docs/publish.md).
 
 ## Sources
 
