@@ -5,6 +5,7 @@ on:
     paths: ['demo-production-v2/probe.cjs', '.github/workflows/demo-v2-pilot.yml']
 permissions:
   contents: write
+  actions: read
 jobs:
   pilot:
     runs-on: ubuntu-latest
@@ -21,8 +22,15 @@ jobs:
       - name: Install render tools
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg xvfb
       - run: npm run build
+      - uses: actions/download-artifact@v4
+        with:
+          name: inflect-v2-narration
+          path: demo-production-v2/output
+          run-id: 45086330643
+          github-token: ${{ github.token }}
       - name: Benchmark full-resolution product capture
-        run: xvfb-run -a npx electron --no-sandbox demo-production-v2/probe.cjs
+        continue-on-error: true
+        run: xvfb-run -a -s "-screen 0 1920x1080x24" npx electron --no-sandbox --disable-dev-shm-usage demo-production-v2/probe.cjs
       - name: Inspect the previous evidence scene
         run: ffmpeg -y -i demo/inflect-demo.mp4 -vf "fps=1/12,scale=480:270,tile=4x3" -frames:v 1 demo-production-v2/output/previous-contact.jpg
       - name: Prepare review frames
@@ -31,12 +39,12 @@ jobs:
           import base64,json,pathlib
           out=pathlib.Path('demo-production-v2/output')
           data={p.stem:base64.b64encode(p.read_bytes()).decode() for p in out.glob('*.jpg')}
-          data['probe']=json.loads((out/'probe.json').read_text())
+          data['probe']=json.loads((out/'probe.json').read_text()) if (out/'probe.json').exists() else {'error':'Capture failed; see job log'}
           (out/'preview.json').write_text(json.dumps(data))
           PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add demo-production-v2/output/preview.json
+          git add demo-production-v2/output/preview.json demo-production-v2/output/narration-full.mp3 demo-production-v2/output/narration-full.json
           git commit -m "Save demo capture inspection frames"
           git push origin HEAD:demo-v2-production
       - uses: actions/upload-artifact@v4

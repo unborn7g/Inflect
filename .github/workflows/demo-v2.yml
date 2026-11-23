@@ -2,8 +2,11 @@ name: Produce Inflect demo v2
 on:
   push:
     branches: [demo-v2-production]
-    paths: ['demo-production-v2/**', '.github/workflows/demo-v2.yml']
+    paths: ['demo-production-v2/voice.py', 'demo-production-v2/voice-plan.json']
   workflow_dispatch:
+concurrency:
+  group: demo-v2-voice
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:

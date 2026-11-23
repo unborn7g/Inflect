@@ -5,11 +5,12 @@ const {spawn}=require('node:child_process');
 app.commandLine.appendSwitch('disable-background-timer-throttling');
 app.commandLine.appendSwitch('disable-renderer-backgrounding');
 app.commandLine.appendSwitch('no-sandbox');
+app.disableHardwareAcceleration();
 let win;
 (async()=>{
  app.setPath('userData',await fs.mkdtemp(path.join(os.tmpdir(),'inflect-film-')));
  await app.whenReady();
- win=new BrowserWindow({show:false,useContentSize:true,width:1920,height:1080,webPreferences:{preload:path.resolve('desktop/preload.cjs'),sandbox:true,contextIsolation:true,nodeIntegration:false,backgroundThrottling:false}});
+ win=new BrowserWindow({show:false,useContentSize:true,width:1920,height:1080,webPreferences:{preload:path.resolve('desktop/preload.cjs'),sandbox:true,contextIsolation:true,nodeIntegration:false,backgroundThrottling:false,offscreen:true}});
  win.webContents.setAudioMuted(true);
  await win.loadFile(path.resolve('dist/index.html'));
  await win.webContents.executeJavaScript("document.fonts.ready");
