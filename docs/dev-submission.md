@@ -8,66 +8,80 @@ cover_image: https://inflect-practice.vercel.app/assets/inflect-cover.jpg
 
 ## What I Built
 
-**Inflect is for adults beginning ASL who want a focused way to observe brow movement between lessons.**
+When you practise a facial movement on your own, you are doing two things at once: following the example and trying to watch yourself. You can repeat the movement and still be unsure when your brows actually lifted or returned to rest.
 
-A learner practising alone can follow a movement guide, but noticing when their own brows lift, settle or move inward is a separate task. Inflect puts the guide, practice cues and a review in one place.
+I built **Inflect** to make that moment easier to look back at.
 
-Watch an original illustration, calibrate relaxed, raised and furrowed positions to your own face, follow a 20-second drill, then review where movement matched the cue and where tracking was usable. Written cues and optional spoken guidance support the same short practice.
+It is a small practice studio for adults beginning ASL who want to pay attention to their brow movements between lessons. Choose a movement, watch the illustrated guide, and try a 20-second drill with two short cues. Afterwards, look at where your movement matched the cue and where tracking was available.
 
-Live Presage feedback runs in the desktop app. The browser studio offers a camera mirror for self-review and a clearly labelled illustrated walkthrough. Inflect complements qualified instruction. Educator review is pending; the app assesses prompted brow movement, not ASL proficiency.
+In desktop live mode, you first calibrate comfortable relaxed, raised and furrowed positions to your own face. That gives the app a personal reference for the practice that follows. Written cues are always available, with optional spoken guidance when your device supports it.
 
-Solo build by **unborn**, with Codex assistance.
+Twenty seconds keeps the task small: one movement to focus on, two cues to follow, and something concrete to review before trying again.
+
+Live Presage feedback runs in the **desktop app**. The **browser studio** offers a camera mirror for self-review and a clearly labelled illustrated walkthrough.
+
+Inflect is intended to sit alongside qualified ASL instruction. It observes prompted brow movement; it does not assess signing ability. Educator review and learner evaluation are still ahead.
+
+Built solo by **unborn**, with Codex assistance.
 
 ## Demo
 
-[Watch the live run and narrated product demo](https://inflect-practice.vercel.app/demo/) · [Try the browser studio](https://inflect-practice.vercel.app/)
+[Watch the live session and narrated walkthrough](https://inflect-practice.vercel.app/demo/) · [Try the browser studio](https://inflect-practice.vercel.app/)
 
-The demo page opens with a **68-second continuous recording** of actual desktop Presage landmarks, personal calibration, a full 20-second raised-brow drill and its review. The two four-second cues reported **2.3 s and 3.0 s of matching movement**, with **3.9 s and 4.0 s of usable tracking**. These are rounded app observations, not validated accuracy scores. The silent clip retains the written cues and runs at its original speed. [Recorded run and limits](https://inflect-practice.vercel.app/demo/inflect-live-run.mp4).
+The first video is a **68-second continuous recording of my desktop session**. It shows the live Presage landmark view, personal calibration, the complete 20-second drill and the actual review. The calibration retry is kept in the recording too.
 
-The earlier 2:27 product walkthrough follows, with neural narration, moving app footage, word-synced captions and labelled demonstration data.
+In that run, the two four-second cues recorded **2.3 s and 3.0 s of matching movement**, with **3.9 s and 4.0 s of usable tracking**. These are the app’s observations from that session, not validated accuracy scores.
 
-Two separate checks support the integration: a direct SDK diagnostic received **101 stable landmark packets**; a subsequent desktop practice run displayed **1,128 landmark samples** and completed the 20-second drill. The two four-second cues had **2.6514 s** and **1.4637 s** of usable tracking (66% and 37% of their cue windows). These describe coverage, not gesture accuracy. [Evidence and limits](https://github.com/unborn7g/Inflect/blob/main/docs/live-run-2026-11-22.md).
+The clip is silent, with written cues visible, and plays at its original speed. Only the recording’s beginning and end were trimmed. A **2:27 narrated walkthrough** follows, using labelled examples and evidence from an earlier live session to explain the rest of the app.
+
+[Recording details and limits](https://github.com/unborn7g/Inflect/blob/main/docs/live-run-2026-11-23.md) · [Earlier integration checks](https://github.com/unborn7g/Inflect/blob/main/docs/live-run-2026-11-22.md)
 
 ## Code
 
-[Public repository and setup](https://github.com/unborn7g/Inflect)
+[Public repository and setup instructions](https://github.com/unborn7g/Inflect)
 
-With Node.js 20+, a supported camera and a valid Presage key:
+To try desktop live feedback, you need Node.js 20+, a supported camera and a valid Presage key. From the project folder, run:
 
 ```sh
 npm ci
 npm start
 ```
 
-Choose Live movement feedback, enter your key locally, confirm consent and wait for clear tracking before calibration. No app account is needed.
+Choose **Practice → Use my camera → Live movement feedback**, enter your key locally, confirm consent and wait for clear tracking before calibration. No Inflect account is needed.
 
-The repository includes **112 automated checks** and an Electron flow check. These implementation tests use synthetic fixtures and do not establish feedback accuracy.
+The repository includes **112 automated checks** and an Electron flow check. The automated tests use synthetic fixtures to check implementation behaviour; evaluating the feedback with learners remains future work.
 
 ## How It Responds to Human Signals
 
-Presage SmartSpectra 3.5.0 supplies **FACE_LANDMARKS**. The native SDK owns capture, requesting 640×480 at 30 fps. Decoded landmarks and guidance cross a restricted bridge to the sandboxed UI.
+In desktop live mode, **Presage SmartSpectra 3.5.0** supplies **FACE_LANDMARKS**. Inflect uses those measurements to observe brow movement as the learner follows the cues.
 
-Inflect normalizes brow height and inner-brow spacing using the documented 478-point topology. Personal calibration determines distinguishable positions. During prompts, the app records usable matching time and the first observed match.
+Personal calibration establishes reference positions that the app can distinguish. During the drill, Inflect compares brow height and inner-brow spacing with those references. Usable matches contribute to the timing review, including how long the movement matched and when the first match appeared.
 
-Stale, unstable, reset or ambiguous measurements remain unscored. Tracking loss pauses practice; SDK interruptions cancel unfinished calibration and allow a manual reconnect. These are engineering observations requiring further learner evaluation.
+When tracking drops, practice pauses. Stale, unstable or ambiguous measurements stay unscored. An SDK interruption cancels unfinished calibration, and the learner can reconnect manually.
+
+The technical path is straightforward: the native SDK owns camera capture, requesting 640×480 at 30 fps. Decoded landmarks and guidance cross a restricted bridge into the sandboxed interface. Brow measurements use the documented 478-point topology.
+
+[More about the signal path and architecture](https://github.com/unborn7g/Inflect/blob/main/docs/architecture.md)
 
 ## Prize Categories
 
 **Best Thoughtful Real-World Use**
 
-A focused task for adult ASL beginners, with readable guidance, explicit consent, local summaries and visible gaps when tracking is unavailable.
+I wanted to give an adult ASL beginner a focused activity they could return to between lessons: watch a guide, try one movement, and look back at its timing. Clear cues, explicit camera consent, local summaries and visible tracking gaps are part of that experience.
 
 **Most Creative or Delightful Use**
 
-An ordinary laptop camera becomes a practice partner for a small part of a visual language, pairing original illustrated cues with personally calibrated brow feedback.
+I like the idea of an ordinary laptop camera helping someone notice a small movement they might otherwise miss. Inflect pairs original illustrated guides with feedback calibrated to the learner’s own face, making that movement visible during a short practice.
 
 ## Consent and Data Handling
 
-- Camera capture begins after adult consent and an explicit connect action.
-- Inflect requests video only and records no camera video. It uploads no camera frames to an app server.
-- Stop, leaving practice, hiding the app or closing it releases capture.
+Camera use should be a clear choice. Here is what happens when someone practises with Inflect:
+
+- Camera capture begins after adult consent and an explicit connect action. The app requests video only.
+- Inflect records no camera video and uploads no camera frames to an app server. The demo above was captured separately as a screen recording.
+- Stopping the camera, leaving practice, hiding the app or closing it releases capture.
 - Keys, raw landmarks and calibration stay in memory and are excluded from history and exports.
-- The most recent 60 completed summaries remain locally until cleared or replaced. Users can export or delete history; exported files are managed separately.
+- The most recent 60 completed summaries remain on the device until cleared or replaced. Users can export or delete history; exported files are managed separately.
 - SDK telemetry and accumulated output are disabled. Presage still performs authentication and service operations under its own policies.
 - Voice preferences are local. A system speech provider may process fixed cue text; keys and face data are not passed to speech synthesis.
 - No runtime generative-AI service receives face data. The illustrated walkthrough is labelled and excluded from real history.
