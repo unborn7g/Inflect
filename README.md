@@ -119,7 +119,7 @@ The builder then supplied a live desktop screenshot, a completed 20-second timin
 
 The earlier 2:27 narrated presentation remains below it, with clearly labelled examples and previous live-run screenshots. See [video provenance](docs/demo-provenance.md).
 
-The [DEV post draft](docs/dev-submission.md) includes the public code and demo links. Use [Open the filled DEV submission](docs/publish.md) to review and publish it from the builder’s account.
+The [DEV post draft](docs/dev-submission.md) includes the public code and demo links. Use [Prepare the DEV submission](docs/publish.md) to review and publish it from the builder’s account.
 
 ## Sources
 
