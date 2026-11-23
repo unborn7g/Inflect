@@ -1,0 +1,1549 @@
+{
+  "voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-15%",
+  "text": "In American Sign Language, even a small brow movement can help shape a question. Inflect gives you a focused space to watch, try, and review.\n\nStart with one cue. Raised brows, furrowed brows, or changing between the two. Watch the guide first, and notice where the movement returns to rest.\n\nThen choose how you want to practise. A camera mirror for self review, a clearly labelled walkthrough, or live movement feedback in the desktop app.\n\nLive feedback starts with your consent. Enter your private key locally. Inflect keeps it in memory for this session.\n\nOn the tested Windows build, Presage supplied these actual face landmarks, with the brows highlighted in the live view.\n\nPersonal calibration compares a relaxed brow, a comfortable lift, and a gentle furrow. Those positions give Inflect a reference for your movements.\n\nThis labelled walkthrough shows the same twenty second cue schedule. Keep the movement comfortable, and follow the guide.\n\nGet ready.\n\nGently raise your brows.\n\nLet your brows rest.\n\nLift again, comfortably.\n\nAnd return to rest.\n\nAfter practice, look at the timing. This real live session review shows matching movement in both cues, and how much tracking was usable.\n\nThese observations describe brow movement. They do not grade your signing, or fill in missing measurements.\n\nYour summary stays on this device. Open My sessions to export a result, or clear your history when you choose.\n\nNo camera video is saved. Landmarks and calibration stay in memory, and S D K telemetry is off.\n\nInflect. Let your face ask the question. Built by unborn.",
+  "words": [
+    {
+      "type": "WordBoundary",
+      "offset": 1029580,
+      "duration": 735000,
+      "text": "In"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1764580,
+      "duration": 4852910,
+      "text": "American"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 6617500,
+      "duration": 3529580,
+      "text": "Sign"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10147080,
+      "duration": 6176660,
+      "text": "Language"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20882500,
+      "duration": 2647080,
+      "text": "even"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 23529580,
+      "duration": 587910,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 24117500,
+      "duration": 5147080,
+      "text": "small"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 29264580,
+      "duration": 3088330,
+      "text": "brow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 32352910,
+      "duration": 5882500,
+      "text": "movement"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40441250,
+      "duration": 1470410,
+      "text": "can"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41911660,
+      "duration": 2205830,
+      "text": "help"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 44117500,
+      "duration": 2794160,
+      "text": "shape"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46911660,
+      "duration": 441250,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 47352910,
+      "duration": 6470410,
+      "text": "question"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 58529580,
+      "duration": 5587910,
+      "text": "Inflect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 64117500,
+      "duration": 1911660,
+      "text": "gives"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 66176660,
+      "duration": 1029160,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67205830,
+      "duration": 441250,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 67647080,
+      "duration": 4852910,
+      "text": "focused"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 72500000,
+      "duration": 4264580,
+      "text": "space"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 76764580,
+      "duration": 1176660,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78088330,
+      "duration": 6617500,
+      "text": "watch"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 87205830,
+      "duration": 6029580,
+      "text": "try"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 96176660,
+      "duration": 1764580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 98088330,
+      "duration": 4558750,
+      "text": "review"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 107500000,
+      "duration": 2500000,
+      "text": "Start"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 110000000,
+      "duration": 1323330,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 111323330,
+      "duration": 2794160,
+      "text": "one"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 114117500,
+      "duration": 4411660,
+      "text": "cue"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 123088330,
+      "duration": 4411660,
+      "text": "Raised"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 127500000,
+      "duration": 8235410,
+      "text": "brows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 138676660,
+      "duration": 5146660,
+      "text": "furrowed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 143823330,
+      "duration": 6323330,
+      "text": "brows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 155000000,
+      "duration": 1176660,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 156323330,
+      "duration": 4411660,
+      "text": "changing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 160735410,
+      "duration": 3088330,
+      "text": "between"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 163970410,
+      "duration": 735410,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 164705830,
+      "duration": 4264580,
+      "text": "two"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 173676660,
+      "duration": 3382080,
+      "text": "Watch"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 177058750,
+      "duration": 1176660,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 178235410,
+      "duration": 4264580,
+      "text": "guide"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 182500000,
+      "duration": 6617500,
+      "text": "first"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 194117500,
+      "duration": 1617500,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 195882500,
+      "duration": 3529580,
+      "text": "notice"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 199558750,
+      "duration": 1029580,
+      "text": "where"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 200588330,
+      "duration": 735000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 201323330,
+      "duration": 6617500,
+      "text": "movement"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 208088330,
+      "duration": 5588330,
+      "text": "returns"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 213823330,
+      "duration": 882500,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 214852910,
+      "duration": 6176660,
+      "text": "rest"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 225735410,
+      "duration": 2794160,
+      "text": "Then"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 228676660,
+      "duration": 3529580,
+      "text": "choose"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 232352910,
+      "duration": 1176660,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 233529580,
+      "duration": 1176250,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 234705830,
+      "duration": 1029580,
+      "text": "want"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 235735410,
+      "duration": 441250,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 236323330,
+      "duration": 8088330,
+      "text": "practise"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 249117500,
+      "duration": 588330,
+      "text": "A"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 249705830,
+      "duration": 5147080,
+      "text": "camera"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 254852910,
+      "duration": 4705830,
+      "text": "mirror"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 259558750,
+      "duration": 1764580,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 261470410,
+      "duration": 4264580,
+      "text": "self"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 265735410,
+      "duration": 4852910,
+      "text": "review"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 275882500,
+      "duration": 588330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 276617500,
+      "duration": 5294160,
+      "text": "clearly"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 282058750,
+      "duration": 3823330,
+      "text": "labelled"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 285882500,
+      "duration": 7794160,
+      "text": "walkthrough"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 298529580,
+      "duration": 1764580,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 300294160,
+      "duration": 4117500,
+      "text": "live"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 304558750,
+      "duration": 3970410,
+      "text": "movement"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 308676660,
+      "duration": 7205830,
+      "text": "feedback"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 316029580,
+      "duration": 1029160,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 317058750,
+      "duration": 882500,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 317941250,
+      "duration": 5588330,
+      "text": "desktop"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 323529580,
+      "duration": 3529580,
+      "text": "app."
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 331911660,
+      "duration": 3088330,
+      "text": "Live"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 335000000,
+      "duration": 5882500,
+      "text": "feedback"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 341029580,
+      "duration": 4705830,
+      "text": "starts"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 345735410,
+      "duration": 1323330,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 347205830,
+      "duration": 1029580,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 348235410,
+      "duration": 6470410,
+      "text": "consent"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 359411660,
+      "duration": 2058750,
+      "text": "Enter"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 361470410,
+      "duration": 1470410,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 362941250,
+      "duration": 5588330,
+      "text": "private"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 368529580,
+      "duration": 3087910,
+      "text": "key"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 371617500,
+      "duration": 7058750,
+      "text": "locally"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 383382500,
+      "duration": 4117500,
+      "text": "Inflect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 387500000,
+      "duration": 3235410,
+      "text": "keeps"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 390735410,
+      "duration": 735410,
+      "text": "it"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 391617500,
+      "duration": 1323330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 392941250,
+      "duration": 4558750,
+      "text": "memory"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 399558750,
+      "duration": 1470410,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 401029580,
+      "duration": 1911660,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 402941250,
+      "duration": 5441250,
+      "text": "session"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 413088330,
+      "duration": 882500,
+      "text": "On"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 414117500,
+      "duration": 882500,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 415000000,
+      "duration": 4411660,
+      "text": "tested"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 419411660,
+      "duration": 5000000,
+      "text": "Windows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 424558750,
+      "duration": 4852910,
+      "text": "build"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 432352910,
+      "duration": 5294160,
+      "text": "Presage"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 437647080,
+      "duration": 6029580,
+      "text": "supplied"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 443823330,
+      "duration": 2794160,
+      "text": "these"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 447352910,
+      "duration": 5294160,
+      "text": "actual"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 452794160,
+      "duration": 4705830,
+      "text": "face"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 457647080,
+      "duration": 8970410,
+      "text": "landmarks"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 469558750,
+      "duration": 1470410,
+      "text": "with"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 471029580,
+      "duration": 882080,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 471911660,
+      "duration": 5441250,
+      "text": "brows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 477352910,
+      "duration": 6764580,
+      "text": "highlighted"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 484117500,
+      "duration": 735410,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 484852910,
+      "duration": 735410,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 485588330,
+      "duration": 3676250,
+      "text": "live"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 489264580,
+      "duration": 3823330,
+      "text": "view"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 497941250,
+      "duration": 3970410,
+      "text": "Personal"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 501911660,
+      "duration": 8382500,
+      "text": "calibration"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 510294160,
+      "duration": 6029160,
+      "text": "compares"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 516323330,
+      "duration": 441250,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 516764580,
+      "duration": 6911660,
+      "text": "relaxed"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 523676250,
+      "duration": 5588330,
+      "text": "brow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 534558750,
+      "duration": 1029580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 535735410,
+      "duration": 6617500,
+      "text": "comfortable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 542352910,
+      "duration": 5000000,
+      "text": "lift"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 550735410,
+      "duration": 1029160,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 551764580,
+      "duration": 1029580,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 552941250,
+      "duration": 4264580,
+      "text": "gentle"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 557352910,
+      "duration": 6470410,
+      "text": "furrow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 568676250,
+      "duration": 2205830,
+      "text": "Those"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 571029580,
+      "duration": 8970410,
+      "text": "positions"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 581470410,
+      "duration": 2647080,
+      "text": "give"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 584264580,
+      "duration": 7205830,
+      "text": "Inflect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 591617500,
+      "duration": 588330,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 592205830,
+      "duration": 6470410,
+      "text": "reference"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 598676250,
+      "duration": 1470410,
+      "text": "for"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 600294160,
+      "duration": 1029580,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 601470410,
+      "duration": 7941250,
+      "text": "movements"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 614264580,
+      "duration": 2500000,
+      "text": "This"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 616764580,
+      "duration": 3823330,
+      "text": "labelled"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 620588330,
+      "duration": 8235410,
+      "text": "walkthrough"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 630735410,
+      "duration": 3823330,
+      "text": "shows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 634558750,
+      "duration": 1176660,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 635735410,
+      "duration": 5588330,
+      "text": "same"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 644117500,
+      "duration": 4117500,
+      "text": "twenty"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 648382500,
+      "duration": 6029580,
+      "text": "second"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 655441250,
+      "duration": 3529580,
+      "text": "cue"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 659117500,
+      "duration": 6617500,
+      "text": "schedule"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 670441250,
+      "duration": 2205830,
+      "text": "Keep"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 672647080,
+      "duration": 1176660,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 673970410,
+      "duration": 5882500,
+      "text": "movement"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 680000000,
+      "duration": 6911660,
+      "text": "comfortable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 690000000,
+      "duration": 1029580,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 691029580,
+      "duration": 3970410,
+      "text": "follow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 695000000,
+      "duration": 882500,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 696029580,
+      "duration": 5000000,
+      "text": "guide"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 705882500,
+      "duration": 1617500,
+      "text": "Get"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 707500000,
+      "duration": 3676660,
+      "text": "ready"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 716029580,
+      "duration": 3676660,
+      "text": "Gently"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 719852910,
+      "duration": 3676660,
+      "text": "raise"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 723529580,
+      "duration": 1176250,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 724705830,
+      "duration": 6764580,
+      "text": "brows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 736029580,
+      "duration": 1029160,
+      "text": "Let"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 737058750,
+      "duration": 1029580,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 738088330,
+      "duration": 6323330,
+      "text": "brows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 744411660,
+      "duration": 6470410,
+      "text": "rest"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 755588330,
+      "duration": 1764580,
+      "text": "Lift"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 757352910,
+      "duration": 4852910,
+      "text": "again"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 765000000,
+      "duration": 7352910,
+      "text": "comfortably"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 777058750,
+      "duration": 735410,
+      "text": "And"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 777794160,
+      "duration": 3970410,
+      "text": "return"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 781764580,
+      "duration": 735410,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 782500000,
+      "duration": 5588330,
+      "text": "rest"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 792941250,
+      "duration": 2500000,
+      "text": "After"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 795441250,
+      "duration": 8235410,
+      "text": "practice"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 806029580,
+      "duration": 1764580,
+      "text": "look"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 807794160,
+      "duration": 735410,
+      "text": "at"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 808529580,
+      "duration": 735000,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 809264580,
+      "duration": 5735410,
+      "text": "timing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 819852910,
+      "duration": 2352910,
+      "text": "This"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 822352910,
+      "duration": 3088330,
+      "text": "real"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 825441250,
+      "duration": 2941250,
+      "text": "live"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 828382500,
+      "duration": 4558750,
+      "text": "session"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 832941250,
+      "duration": 5882500,
+      "text": "review"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 841764580,
+      "duration": 6176660,
+      "text": "shows"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 849117500,
+      "duration": 8088330,
+      "text": "matching"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 857205830,
+      "duration": 6029580,
+      "text": "movement"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 864411660,
+      "duration": 1323330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 865882500,
+      "duration": 4117500,
+      "text": "both"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 870000000,
+      "duration": 7647080,
+      "text": "cues"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 882205830,
+      "duration": 1323330,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 883529580,
+      "duration": 1617500,
+      "text": "how"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 885147080,
+      "duration": 2794160,
+      "text": "much"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 888088330,
+      "duration": 5882080,
+      "text": "tracking"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 893970410,
+      "duration": 1764580,
+      "text": "was"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 895735410,
+      "duration": 6176660,
+      "text": "usable"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 906764580,
+      "duration": 2352910,
+      "text": "These"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 909117500,
+      "duration": 8676660,
+      "text": "observations"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 917794160,
+      "duration": 7352910,
+      "text": "describe"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 925294160,
+      "duration": 3382080,
+      "text": "brow"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 928676250,
+      "duration": 7352910,
+      "text": "movement"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 940882500,
+      "duration": 735000,
+      "text": "They"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 941617500,
+      "duration": 1029580,
+      "text": "do"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 942647080,
+      "duration": 3970410,
+      "text": "not"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 946617500,
+      "duration": 4852910,
+      "text": "grade"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 951470410,
+      "duration": 1323330,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 952941250,
+      "duration": 5441250,
+      "text": "signing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 963529580,
+      "duration": 1323330,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 965000000,
+      "duration": 5735410,
+      "text": "fill"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 970882500,
+      "duration": 1029580,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 972058750,
+      "duration": 3382500,
+      "text": "missing"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 975588330,
+      "duration": 7647080,
+      "text": "measurements"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 988088330,
+      "duration": 1176660,
+      "text": "Your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 989411660,
+      "duration": 5000000,
+      "text": "summary"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 994411660,
+      "duration": 4705830,
+      "text": "stays"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 999264580,
+      "duration": 882500,
+      "text": "on"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1000147080,
+      "duration": 1470410,
+      "text": "this"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1001617500,
+      "duration": 7647080,
+      "text": "device"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1014117500,
+      "duration": 2352910,
+      "text": "Open"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1016470410,
+      "duration": 1470410,
+      "text": "My"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1017941250,
+      "duration": 6176250,
+      "text": "sessions"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1024117500,
+      "duration": 1617500,
+      "text": "to"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1025735410,
+      "duration": 4264580,
+      "text": "export"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1030147080,
+      "duration": 294160,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1030441250,
+      "duration": 5000000,
+      "text": "result"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1041029580,
+      "duration": 1029160,
+      "text": "or"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1042058750,
+      "duration": 3088330,
+      "text": "clear"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1045147080,
+      "duration": 1617500,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1046911660,
+      "duration": 7500000,
+      "text": "history"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1055735410,
+      "duration": 1470410,
+      "text": "when"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1057205830,
+      "duration": 1029580,
+      "text": "you"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1058235410,
+      "duration": 6323330,
+      "text": "choose"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1069117500,
+      "duration": 1470410,
+      "text": "No"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1070735410,
+      "duration": 4117500,
+      "text": "camera"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1075000000,
+      "duration": 5441250,
+      "text": "video"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1081176250,
+      "duration": 1323330,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1082647080,
+      "duration": 6176660,
+      "text": "saved"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1093382500,
+      "duration": 8235410,
+      "text": "Landmarks"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1102794160,
+      "duration": 2941250,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1105735410,
+      "duration": 8676250,
+      "text": "calibration"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1114411660,
+      "duration": 3823330,
+      "text": "stay"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1118382500,
+      "duration": 1323330,
+      "text": "in"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1119705830,
+      "duration": 5294160,
+      "text": "memory"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1129264580,
+      "duration": 2352910,
+      "text": "and"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1133382500,
+      "duration": 2205830,
+      "text": "S"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1135735410,
+      "duration": 1764580,
+      "text": "D"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1137647080,
+      "duration": 2058750,
+      "text": "K"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1139852910,
+      "duration": 7941250,
+      "text": "telemetry"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1149117500,
+      "duration": 1470410,
+      "text": "is"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1150588330,
+      "duration": 5147080,
+      "text": "off"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1160588330,
+      "duration": 7352910,
+      "text": "Inflect"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1172794160,
+      "duration": 1176250,
+      "text": "Let"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1173970410,
+      "duration": 1176660,
+      "text": "your"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1175147080,
+      "duration": 7500000,
+      "text": "face"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1184558750,
+      "duration": 3235410,
+      "text": "ask"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1187794160,
+      "duration": 882500,
+      "text": "the"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1188823330,
+      "duration": 5882500,
+      "text": "question"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1199411660,
+      "duration": 1911660,
+      "text": "Built"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1201323330,
+      "duration": 2205830,
+      "text": "by"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 1203676250,
+      "duration": 6323330,
+      "text": "unborn"
+    }
+  ]
+}
