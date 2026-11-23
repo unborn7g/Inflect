@@ -12,11 +12,14 @@ let win;
  await app.whenReady();
  win=new BrowserWindow({show:false,useContentSize:true,width:1920,height:1080,webPreferences:{preload:path.resolve('desktop/preload.cjs'),sandbox:true,contextIsolation:true,nodeIntegration:false,backgroundThrottling:false,offscreen:true}});
  win.webContents.setAudioMuted(true);
+ win.webContents.on('console-message',e=>console.log('PAGE: '+e.message));
  await win.loadFile(path.resolve('dist/index.html'));
- await win.webContents.executeJavaScript("document.fonts.ready");
+ await win.webContents.executeJavaScript("document.fonts.ready.then(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))))");
+ await new Promise(r=>setTimeout(r,700));
+ console.log(await win.webContents.executeJavaScript("JSON.stringify({brand:!!document.querySelector('.brand'),body:document.body.innerText.slice(0,500)})"));
  await fs.mkdir('demo-production-v2/output',{recursive:true});
  const start=Date.now();let count=0;
- for(let i=0;i<90;i++){const im=await win.webContents.capturePage();const b=im.toJPEG(88);count++;if(i===0)await fs.writeFile('demo-production-v2/output/app-pilot.jpg',b);}
+ for(let i=0;i<90;i++){const im=await win.webContents.capturePage();const b=im.toJPEG(88);count++;if(i===0||i===89)await fs.writeFile('demo-production-v2/output/'+(i===0?'app-pilot':'app-last')+'.jpg',b);}
  const report={frames:count,seconds:(Date.now()-start)/1000};
  await fs.writeFile('demo-production-v2/output/probe.json',JSON.stringify(report));
  console.log(JSON.stringify(report));win.destroy();app.exit(0);
